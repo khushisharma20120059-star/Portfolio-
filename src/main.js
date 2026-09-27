@@ -416,7 +416,7 @@ function drawChart() {
   const w = rect.width, h = 200
   const pad = 40
 const bars = [
-    { label: 'CGPA', value: 9.32 / 10, color: '#1e3a5f', fmtVal: '9.32' },
+    { label: 'CGPA', value: 9.32 / 10, color: '#e05520', fmtVal: '9.32' },
     { label: 'Sem 1 Math', value: 92 / 100, color: '#ff8c42', fmtVal: '92' },
     { label: 'Sem 2 Math', value: 89 / 100, color: '#ffaa2e', fmtVal: '89' }
   ]
@@ -425,7 +425,7 @@ const bars = [
     const x = pad + i * (bw + 20)
     const bh = b.value * (h - pad * 2)
     const y = h - pad - bh
-    ctx.fillStyle = 'rgba(30,58,95,0.05)'
+    ctx.fillStyle = 'rgba(255, 140, 66, 0.05)'
     ctx.strokeStyle = '#222'
     ctx.lineWidth = 1
     ctx.beginPath()

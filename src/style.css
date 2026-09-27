@@ -6,9 +6,9 @@
   --bg-card-hover: #f0f2f5;
   --fg: #1a1a2e;
   --fg-dim: #5a6370;
-  --accent: #1e3a5f;
-  --accent-dim: #152d47;
-  --accent-glow: rgba(30, 58, 95, 0.1);
+  --accent: #ff8c42;
+  --accent-dim: #e05520;
+  --accent-glow: rgba(255, 140, 66, 0.1);
   --border: #dee2e6;
   --border-accent: #adb5bd;
   --font-mono: 'JetBrains Mono', monospace;
